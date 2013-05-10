@@ -1,0 +1,15 @@
+<?php if ($this->canShowBlock()): ?>
+	<?php $_remaining = $this->getRemainingAmount(); ?>
+	<div class="block block-incentive">
+		<div class="block-title">
+			<strong><span><?php echo $this->__('Shipping Offer!'); ?></span></strong>
+		</div>
+		<div class="block-content">
+			<?php if ($_remaining > 0): ?>
+				<p class="empty"><?php echo $this->__('Spend %s more to get free delivery!', $this->helper('core')->currency($_remaining)); ?></p>
+			<?php else: ?>
+				<p class="empty"><?php echo $this->__('You have qualified for free delivery'); ?></p>
+			<?php endif; ?>
+		</div>
+	</div>
+<?php endif; ?>
