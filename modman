@@ -1,0 +1,4 @@
+app/code/community/Smartie/Fsi app/code/community/Smartie/Fsi
+app/etc/modules/Smartie_Fsi.xml app/etc/modules/Smartie_Fsi.xml
+app/design/frontend/base/default/layout/fsi.xml app/design/frontend/base/default/layout/fsi.xml
+app/design/frontend/base/default/template/fsi app/design/frontend/base/default/template/fsi
