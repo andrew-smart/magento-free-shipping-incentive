@@ -18,7 +18,7 @@
 		<layout>
 			<updates>
 				<fsi>
-					<file>fsi.xml</file>
+					<file>smartie_fsi.xml</file>
 				</fsi>
 			</updates>
 		</layout>
